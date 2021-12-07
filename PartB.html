@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./PartB.css">
+    <link rel="preconnect" href="https://api.shrtco.de">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="head">
+                The <b>privacy-friendly</b> URL Shortener
+            </div>
+
+            <div class="content">
+                <div class="content__head">
+                    <p>Link Shortener</p>
+                </div>
+
+                <div class="content__input">
+                    <p style="font-size: 20px;""> Enter a link: </p>
+                    <input class="main__input" type="text" placeholder="example.com" id="input">
+                    <button type="submit" class="main__submit" id="submit">→</button>
+                </div>
+
+                <div class="content_toolbar">
+                    <p style="font-size: 20px;"> Short domain: </p>
+                    <input type="radio" id="domain1" name="domain" value="shrtco.de" checked>
+                    <label for="domain1">shrtco.de</label>
+
+                    <input type="radio" id="domain2" name="domain" value="9qr.de">
+                    <label for="domain2">9qr.de</label>
+
+                    <input type="radio" id="domain3" name="domain" value="shiny.link">
+                    <label for="domain3">shiny.link</label>
+                </div>
+
+                <div class="description">
+                    <p>With this free Link Shortener you can make Links shorter and easier to remember. Just enter a Link into the form and click on the above Button to generate a short Link. When visiting the short-Link, the short-Link will immediately redirect you to the long Link.</p>
+                </div>
+
+            </div>
+
+            <div class="info">
+                By using <b>shrtcode</b> you agree to our <b>Terms of Service.</b>
+            </div>
+        </div>
+</body>
+<script src="./PartB.js"></script>
+</html>
